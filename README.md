@@ -11,3 +11,14 @@
 * Сохранить файл с помощью комнды git add. 
 * Выполнить commit с помощью команды git commit.
 * И имопртировать проект в свой аккаунт github с помощью команды git push.
+
+
+'''mermaid
+
+graph LR;
+	untraced -- "git add" --> staged;
+	staged   -- "???"    --> tracked/comitted;
+%% стрелка без текста для примера:
+	A --> B;
+
+'''
